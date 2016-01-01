@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2.2.dtd">
+
+<web-app>
+
+  <servlet>
+    <servlet-name>registerCustSer</servlet-name>
+    <servlet-class>registerCustSer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerCustSer</servlet-name>
+    <url-pattern>/registerCustSer</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>authUser</servlet-name>
+    <servlet-class>authUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>authUser</servlet-name>
+    <url-pattern>/authUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getProductInfo</servlet-name>
+    <servlet-class>getProductInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getProductInfo</servlet-name>
+    <url-pattern>/getProductInfo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>forgotPass</servlet-name>
+    <servlet-class>forgotPass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>forgotPass</servlet-name>
+    <url-pattern>/forgotPass</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>checkResetPasswordToken</servlet-name>
+    <servlet-class>checkResetPasswordToken</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkResetPasswordToken</servlet-name>
+    <url-pattern>/checkResetPasswordToken</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updatePass</servlet-name>
+    <servlet-class>updatePass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatePass</servlet-name>
+    <url-pattern>/updatePass</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>productList</servlet-name>
+    <servlet-class>productList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productList</servlet-name>
+    <url-pattern>/productList</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addToCart</servlet-name>
+    <servlet-class>addToCart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addToCart</servlet-name>
+    <url-pattern>/addToCart</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addProduct</servlet-name>
+    <servlet-class>addProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addProduct</servlet-name>
+    <url-pattern>/addProduct</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getReviews</servlet-name>
+    <servlet-class>getReviews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getReviews</servlet-name>
+    <url-pattern>/getReviews</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>submitReview</servlet-name>
+    <servlet-class>submitReview</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>submitReview</servlet-name>
+    <url-pattern>/submitReview</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addToWishlist</servlet-name>
+    <servlet-class>addToWishlist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addToWishlist</servlet-name>
+    <url-pattern>/addToWishlist</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getWishlist</servlet-name>
+    <servlet-class>getWishlist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getWishlist</servlet-name>
+    <url-pattern>/getWishlist</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>removeFromWishlist</servlet-name>
+    <servlet-class>removeFromWishlist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>removeFromWishlist</servlet-name>
+    <url-pattern>/removeFromWishlist</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>trendingOffersAction</servlet-name>
+    <servlet-class>trendingOffersAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trendingOffersAction</servlet-name>
+    <url-pattern>/trendingOffersAction</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>autocomplete</servlet-name>
+    <servlet-class>autocomplete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>autocomplete</servlet-name>
+    <url-pattern>/autocomplete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>searchProductList</servlet-name>
+    <servlet-class>searchProductList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchProductList</servlet-name>
+    <url-pattern>/searchProductList</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>checkoutProcess</servlet-name>
+    <servlet-class>checkoutProcess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkoutProcess</servlet-name>
+    <url-pattern>/checkoutProcess</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>fetchOrders</servlet-name>
+    <servlet-class>fetchOrders</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fetchOrders</servlet-name>
+    <url-pattern>/fetchOrders</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>trackOrder</servlet-name>
+    <servlet-class>trackOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trackOrder</servlet-name>
+    <url-pattern>/trackOrder</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updateProduct</servlet-name>
+    <servlet-class>updateProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateProduct</servlet-name>
+    <url-pattern>/updateProduct</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>trendingProductsAction</servlet-name>
+    <servlet-class>trendingProductsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trendingProductsAction</servlet-name>
+    <url-pattern>/trendingProductsAction</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>viewInventory</servlet-name>
+    <servlet-class>viewInventory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewInventory</servlet-name>
+    <url-pattern>/viewInventory</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>deleteProduct</servlet-name>
+    <servlet-class>deleteProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteProduct</servlet-name>
+    <url-pattern>/deleteProduct</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>cancelOrder</servlet-name>
+    <servlet-class>cancelOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cancelOrder</servlet-name>
+    <url-pattern>/cancelOrder</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>returnOrder</servlet-name>
+    <servlet-class>returnOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>returnOrder</servlet-name>
+    <url-pattern>/returnOrder</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getSellerProductInfo</servlet-name>
+    <servlet-class>getSellerProductInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getSellerProductInfo</servlet-name>
+    <url-pattern>/getSellerProductInfo</url-pattern>
+  </servlet-mapping>
+
+  <context-param>
+      <description>Location to store uploaded file</description>
+      <param-name>file-upload</param-name>
+      <param-value>
+           C:\apache-tomcat-7.0.34\webapps\FashionFactory\css\images\
+  		 </param-value>
+  </context-param>
+
+     <servlet>
+     <servlet-name>UploadServlet</servlet-name>
+     <servlet-class>UploadServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+     <servlet-name>UploadServlet</servlet-name>
+     <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
