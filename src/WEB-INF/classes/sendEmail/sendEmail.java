@@ -18,7 +18,7 @@ public void sendTextEmail( String toAddress,
                            String subject, String message) throws AddressException,
 MessagingException {
 
-        // sets fashion factory gmail values
+        // sets fashion factory gmail values Test
         String host = "smtp.gmail.com";
         String port = "587";
         final String userName = "noreply.fashionfactory@gmail.com";
