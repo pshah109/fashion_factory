@@ -88,7 +88,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
 
 					myProducts.insert(doc);
 
-					// inert value into trending DB
+					// inert value into trending DB Test
 					BasicDBObject trending = new BasicDBObject().append("productID",productID).append("count",0);
 				  myTrending.insert(trending);
 
